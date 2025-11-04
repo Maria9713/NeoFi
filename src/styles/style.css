@@ -45,10 +45,10 @@ header {
 .btn-primary{
 text-decoration: none;
 padding: 10px 24px ;
-background-color: var(--color-green) ;
+background-color: var(--color-green);
 border-radius: 40px;
 color: #000;
 font-family: var(--font-familly-alexandria);
 font-size: var(--font-size-text1);
-
 }
+
