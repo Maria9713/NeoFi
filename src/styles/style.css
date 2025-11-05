@@ -120,22 +120,102 @@ h1 {
     text-decoration: none;
     font-family: var(--font-familly-alexandria);
 }
-.section-partners{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 40px;
-background-color: var(--color-gray4);
-padding: 40px 0px;
+
+.section-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--color-gray4);
+    padding: 40px 0px;
 }
 
-.section-partners h2{
+.section-partners h2 {
     color: var(--color-gray1);
     font-size: var(--font-size-text1);
     font-family: var(--font-familly-alexandria);
 }
 
-.container-images-partners{
-display: flex;
-gap: 50px;
+.container-images-partners {
+    display: flex;
+    gap: 50px;
+}
+
+.section-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.content-breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-breakdown span {
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    padding: 12px 20px;
+    color: var(--color-green);
+    font-size: var(--font-size-text2);
+    font-family: var(--font-familly-alexandria);
+
+}
+
+.content-breakdown h2 {
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-familly-alexandria);
+    font-weight: 400px;
+}
+
+.content-breakdown p {
+    color: var(--color-gray1);
+    font-family: var(--font-familly-inter);
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 572px;
+}
+
+.container-cards-breakdown {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 48px 36px;
+    background-color: #ffffff04;
+    border: 1px solid var(--color-gray3);
+    border-radius: 12px;
+}
+
+.card-breakdown div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.card-breakdown div h3 {
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-familly-inter);
+    font-weight: 400;
+}
+
+.card-breakdown div p {
+    color: var(--color-gray1);
+    font-size: var( --font-size-text1);
+    font-family: var(--font-familly-alexandria);
+    width: 338px;
+    
 }
