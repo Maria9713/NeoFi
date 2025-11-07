@@ -347,8 +347,6 @@ flex-direction: column;
 gap: 8px;
 }
 
-
-
 .card-blockchain {
     display: flex;
     align-items: center;
@@ -371,5 +369,7 @@ font-family: var(--font-familly-alexandria);
 font-size: var(--font-size-text1);
 width: 530px;
 }
+
+
 
 
